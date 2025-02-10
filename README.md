@@ -2,13 +2,13 @@
 In this project, sound data of students is **preprocessed**, and **features are extracted**. These features are mapped to the space **spanned by PCs** of data, keeping **95% of variance**. Next, these features are used for **clustering** and **classification** tasks. Clustering algorithms include **sequential clustering** and **Kmeans**. Data is well-clustered based on gender of individuals, but not based on indentity of each individual. The potential reasons are discussed in the report. Besides, 3 algorithms are provided for clustering data for gender and identity.
 
 ## **Classification**  
-- Used **four models** for **gender classification**:
+- **Gender Classification**:
   - **Logistic Regression**: **99% accuracy**  
   - **SVM**: **99% accuracy**  
   - **MLP (Neural Network)**: **97% accuracy**  
   - **K-Nearest Neighbors (KNN)**: **86% accuracy**  
 
-- Used the same models for **closed-set speaker authentication** (10-class classification):  
+- **Closed-set Speaker Authentication** (10-class classification):  
   - **Logistic Regression**: **100% accuracy**  
   - **SVM**: **96%-99% accuracy**  
   - **MLP**: **Promising performance, improving over training epochs**  
