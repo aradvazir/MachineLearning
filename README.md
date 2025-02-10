@@ -1,2 +1,3 @@
-# MachineLearning
-This is the repository of ML final project, Gender Classification and Closed-set Authentication
+# Sound Data Processing
+In this project, sound data of students is preprocessed, and features are extracted. These features are mapped to the space spanned by PCs of data, keeping 95% of variance. Next, these features are used for clustering and classification tasks. Clustering algorithms include sequential clustering and Kmeans. Data is well-clustered based on gender of individuals, but not based on indentity of each individual. The potential reasons are discussed in the report. Besides, 3 algorithms are provided for clustering data for gender and identity.
+Code of the project is also provided in this repo.
